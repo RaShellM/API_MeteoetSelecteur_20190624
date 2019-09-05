@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>api meteo que l'on fait</title>
+	<link rel="stylesheet" type="text/css" href="ApiNew.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+
+<body>
+	<div class="container">
+		<div class='row'>
+			<div class="col-8">
+				<form>
+					<label for='ville'>NOM DE VOTRE VILLE</label>
+					<input name="ville" id='ville' placeholder='grenoble' maxlenght='15'></input>
+					<br>
+					<label for='pays'>deux lettres du pays</label>
+					<input name="pays" id='pays' placeholder='fr' maxlenght='2'></input>
+					<br>
+					<label for='contentement'>Evaluez ici</label>
+					<input type="range" name="contentement" id='contentement' scale='10' max="35" min="25"></input>
+					<br>
+					<label for='colorFond'>Choisir votre couleur de fond</label>
+					<input type="color" name="colorFond" id='colorFond'></input>
+					<input type="search" name="search" id="search">
+				</form>
+			</div>
+		
+
+			<div class="col-4">
+				<button id='bouton'>appel de l'api de meteo</button>
+			</div>
+		</div>
+
+		<div>
+			<p id='retour_api'>le contenu de l'api sera retourné sur ce paragraphe</p>
+		</div>
+
+
+</div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="ApiNew.js"></script>
+</body>
+</html>

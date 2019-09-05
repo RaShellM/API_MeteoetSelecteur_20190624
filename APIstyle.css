@@ -1,0 +1,48 @@
+#box{
+	width:270px;
+	border:2px solid red;
+	background-color:yellow;
+	padding-left:3px;
+	text-align:center;
+}
+p{
+	width:300px;
+	border:2px solid green;
+	min-height:20px;
+	padding-left:5px;
+}
+
+button{
+	min-height:30px;
+	min-width: 50px;
+	margin-top:20px;
+	background-color: yellow;
+}
+
+ul{
+	width:200px;
+	border :4px solid blue;
+}
+li
+{
+	width:150px;
+	border:2px dashed grey;
+	height:20px;
+	margin-bottom:13px;
+	margin-top:10px;
+	padding-left: 20px;
+
+}
+
+table
+{
+	width : 250px;
+	border-collapse:collapse;
+	border:1px solid black;
+
+}
+td
+{
+	border:1px solid black;
+	text-align:center;
+}
